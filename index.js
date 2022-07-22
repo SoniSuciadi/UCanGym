@@ -1,7 +1,7 @@
 let classGym = {
   mindBody: {
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam nostrum nesciunt similique sapiente dolore praesentium maxime neque illo voluptates soluta.",
+      "Get rid out the negtive energy by join mindBody exercise programs!",
     schedule: [
       { hari: "Senin", waktu: "13.00" },
       { hari: "Selasa", waktu: "14.00" },
@@ -13,8 +13,7 @@ let classGym = {
     color: "blue",
   },
   yoga: {
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam nostrum nesciunt similique sapiente dolore praesentium maxime neque illo voluptates soluta.",
+    description: "Do yoga and find happiness, <br>Grab it fast!!",
     schedule: [
       { hari: "Senin", waktu: "11.00" },
       { hari: "Selasa", waktu: "12.00" },
@@ -26,8 +25,7 @@ let classGym = {
     color: "yellow",
   },
   zoomba: {
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam nostrum nesciunt similique sapiente dolore praesentium maxime neque illo voluptates soluta.",
+    description: "Make your move and get healty by join <br>Ucan Zoomba!",
     schedule: [
       { hari: "Kamis", waktu: "13.00" },
       { hari: "Jumat", waktu: "14.00" },
@@ -39,8 +37,7 @@ let classGym = {
     color: "red",
   },
   cardio: {
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam nostrum nesciunt similique sapiente dolore praesentium maxime neque illo voluptates soluta.",
+    description: "find out exactly what cardio & training is best for you!",
     schedule: [
       { hari: "Senin", waktu: "12.00" },
       { hari: "Selasa", waktu: "13.00" },
@@ -53,7 +50,7 @@ let classGym = {
   },
   dance: {
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam nostrum nesciunt similique sapiente dolore praesentium maxime neque illo voluptates soluta.",
+      "We'll teach you the ultimate formula for sustained weight loss !",
     schedule: [
       { hari: "Kamis", waktu: "14.00" },
       { hari: "Jumat", waktu: "15.00" },
@@ -65,8 +62,7 @@ let classGym = {
     color: "violet",
   },
   mma: {
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam nostrum nesciunt similique sapiente dolore praesentium maxime neque illo voluptates soluta.",
+    description: "Gain muscle and lose fat at the same time by join MMA",
     schedule: [
       { hari: "Sabtu", waktu: "13.00" },
       { hari: "Selasa", waktu: "10.00" },
@@ -323,6 +319,7 @@ document.addEventListener("click", (e) => {
                                 <ul class="list-group">
                                     <li class="list-group-item">
                                         <h3>${e.target.value}</h3>
+                                        <p>${kls.description}</p>
                                     </li>
                                     <li class="list-group-item"><span class="fw-bolder">Jadwal
                                         <ul class="list-group">
